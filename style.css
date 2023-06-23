@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(158, 153, 153, 0.267);
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+}
+
+input, button{
+    text-align: center;
+    margin-right: 5px;
+    padding: 8px;
+}
+
+table{
+    margin-top: 8px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+table th{
+    border-bottom: 1px solid;
+    border-right:  1px solid;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+table td{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom : 1px solid black;
+    border-right : 1px solid black;
+    text-align: center;
+}
+
